@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.7" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.FrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+    </Property>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[200, 200, 0, 0]"/>
+    </Property>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="title" type="java.lang.String" value="Blazer - AMF Testing Made Easy! by @_ikki"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="exitForm"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-12,0,0,2,88"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="0"/>
+          </Border>
+        </Property>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 500]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 500]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 500]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="StepsPanel" alignment="0" pref="600" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="StepsPanel" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="StepsPanel">
+          <Properties>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[594, 490]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[594, 490]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[593, 490]"/>
+            </Property>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+          </AccessibilityProperties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="StepsPanelFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="StepsPanelFocusLost"/>
+          </Events>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="firstStep">
+              <Properties>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="firstStep" noResource="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/green01.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="libraries">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[600, 500]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Application Libraries">
+                        <Property name="tabTitle" type="java.lang.String" value="Application Libraries"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane4" alignment="0" pref="576" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" pref="123" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="jButton4" min="-2" pref="123" max="-2" attributes="0"/>
+                              <EmptySpace pref="115" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="jFileChooser1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="73" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jScrollPane4" pref="341" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jButton3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="jButton4" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Component id="jFileChooser1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTree" name="jTree4">
+                          <Properties>
+                            <Property name="model" type="javax.swing.tree.TreeModel" editor="org.netbeans.modules.form.editors2.TreeModelEditor" postCode="javax.swing.ImageIcon leafIcon = new javax.swing.ImageIcon(getClass().getResource(&quot;/com/mtso/blazer/add.png&quot;));&#xa;if (leafIcon != null) {&#xa;    DefaultTreeCellRenderer renderer =  new DefaultTreeCellRenderer();&#xa;    renderer.setLeafIcon(leafIcon);">
+                              <TreeModel code="No Libs&#xa; "/>
+                            </Property>
+                            <Property name="cellRenderer" type="javax.swing.tree.TreeCellRenderer" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                              <Connection code="renderer" type="code"/>
+                            </Property>
+                            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                              <Color id="Default Cursor"/>
+                            </Property>
+                            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[90, 20]"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="jButton3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Add Libs"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JFileChooser" name="jFileChooser1">
+                      <Properties>
+                        <Property name="dialogTitle" type="java.lang.String" value="Select all application libraries (JAR, Class, Java)"/>
+                        <Property name="fileFilter" type="javax.swing.filechooser.FileFilter" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new JARClassesSourceFileFilter()" type="code"/>
+                        </Property>
+                        <Property name="fileSelectionMode" type="int" value="2"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFileChooser1ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jFileChooser1.setVisible(false);"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Remove Libs"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="secondStep">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="secondStep" noResource="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="secondStepFocusGained"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/teal02.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="signatures">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Remote Method Signatures">
+                        <Property name="tabTitle" type="java.lang.String" value="Remote Method Signatures"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="remotingIncludeOnly" min="-2" max="-2" attributes="0"/>
+                                  <Component id="interfaceOnly" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="143" max="32767" attributes="0"/>
+                              <Component id="SelectAllButton" min="-2" pref="118" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="DeselectAllButton" min="-2" pref="117" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane5" alignment="0" pref="576" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jScrollPane5" pref="301" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="remotingIncludeOnly" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="interfaceOnly" min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="SelectAllButton" alignment="3" min="-2" pref="38" max="-2" attributes="1"/>
+                                      <Component id="DeselectAllButton" alignment="3" min="-2" pref="38" max="-2" attributes="1"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                      <Properties>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="jTable1">
+                          <Properties>
+                            <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="11" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="7" rowCount="0">
+                                <Column editable="true" title="" type="java.lang.Boolean"/>
+                                <Column editable="false" title="Id" type="java.lang.Integer"/>
+                                <Column editable="false" title="Type" type="java.lang.String"/>
+                                <Column editable="true" title="Name" type="java.lang.String"/>
+                                <Column editable="true" title="Method" type="java.lang.String"/>
+                                <Column editable="true" title="Parameters" type="java.lang.String"/>
+                                <Column editable="false" title="Annotations" type="java.lang.String"/>
+                              </Table>
+                            </Property>
+                            <Property name="autoResizeMode" type="int" value="4"/>
+                            <Property name="autoscrolls" type="boolean" value="false"/>
+                            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor" postCode="jTable1.getModel().addTableModelListener(new TableModelListener() {&#xa;&#xa;      public void tableChanged(TableModelEvent e) {&#xa;             &#xa;        //Browse all signatures, compare with rows and save the current state&#xa;        ArrayList oldSignatures = manager.getTask().getSignatures();&#xa;&#xa;        if(oldSignatures != null &amp;&amp; !oldSignatures.isEmpty()){&#xa;        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();&#xa;        for (int i = 0; i &lt; model.getRowCount(); i++) {&#xa;            Object[] signature = (Object[]) oldSignatures.get(((Integer) model.getValueAt(i, 1)).intValue());&#xa;&#xa;            if (((Boolean) signature[0]).booleanValue() != ((Boolean) model.getValueAt(i, 0)).booleanValue()) {&#xa;                oldSignatures.remove(i);&#xa;                signature[0] = (Boolean) model.getValueAt(i, 0);&#xa;                oldSignatures.add(i, signature);&#xa;            } else if (!((String) signature[3]).equals((String) model.getValueAt(i, 3))) {&#xa;                oldSignatures.remove(i);&#xa;                signature[3] = (String) model.getValueAt(i, 3);&#xa;                oldSignatures.add(i, signature);&#xa;            } else if (!((String) signature[4]).equals((String) model.getValueAt(i, 4))) {&#xa;                oldSignatures.remove(i);&#xa;                signature[4] = (String) model.getValueAt(i, 4);&#xa;                oldSignatures.add(i, signature);&#xa;            } else if (!((String) signature[5]).equals((String) model.getValueAt(i, 5))) {&#xa;                oldSignatures.remove(i);&#xa;                signature[5] = (String) model.getValueAt(i, 5);&#xa;                oldSignatures.add(i, signature);&#xa;            }&#xa;        }&#xa;      }&#xa;        manager.getTask().setSignatures(oldSignatures);&#xa;      }&#xa;    });">
+                              <TableColumnModel selectionModel="0">
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="6" resizable="false">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="6" resizable="false">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="20" resizable="false">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                              </TableColumnModel>
+                            </Property>
+                            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                              <Color id="Default Cursor"/>
+                            </Property>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                            <Property name="surrendersFocusOnKeystroke" type="boolean" value="true"/>
+                            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                              <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="SelectAllButton">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Select All"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[85, 27]"/>
+                        </Property>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[85, 27]"/>
+                        </Property>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[85, 27]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SelectAllButtonActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="remotingIncludeOnly">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="DejaVu Sans" size="11" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="@RemotingInclude only"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="remotingIncludeOnlyItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="DeselectAllButton">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Deselect All"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeselectAllButtonActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="interfaceOnly">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="DejaVu Sans" size="11" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Interfaces only"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="interfaceOnlyItemStateChanged"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="thirdStep">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="thirdStep" noResource="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="General Options"/>
+              </AccessibilityProperties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/red03.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="options">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="General Options">
+                        <Property name="tabTitle" type="java.lang.String" value="General Options"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel4" min="-2" pref="122" max="-2" attributes="1"/>
+                                                  <Component id="jLabel2" min="-2" pref="88" max="-2" attributes="1"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="proxyHost" min="-2" pref="85" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="proxyPort" min="-2" pref="51" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="permutations" alignment="0" max="32767" attributes="1"/>
+                                                      <Component id="threads" alignment="0" pref="408" max="32767" attributes="1"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                              <Component id="jSeparator1" min="-2" pref="540" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="fuzzingLabel1" alignment="0" min="-2" max="-2" attributes="1"/>
+                                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="fuzzingButton" alignment="0" max="32767" attributes="1"/>
+                                                      <Component id="fuzzingLabel2" alignment="0" max="32767" attributes="1"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jScrollPane3" max="32767" attributes="1"/>
+                                                  <Component id="vectorsLikelihood" alignment="0" pref="404" max="32767" attributes="1"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jFileChooser2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="jFileChooser2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel2" min="-2" pref="26" max="-2" attributes="1"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" pref="43" max="-2" attributes="1"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="threads" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="permutations" min="-2" max="-2" attributes="1"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="proxyHost" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="proxyPort" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                      <Component id="vectorsLikelihood" min="-2" pref="69" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jScrollPane3" min="-2" pref="85" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="fuzzingLabel1" min="-2" pref="39" max="-2" attributes="1"/>
+                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="fuzzingLabel2" min="-2" pref="33" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fuzzingButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="# Threads:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="fuzzingLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="% Attack Vectors:"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="# Permutations:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="permutations"/>
+                      </AccessibilityProperties>
+                    </Component>
+                    <Component class="javax.swing.JSlider" name="threads">
+                      <Properties>
+                        <Property name="majorTickSpacing" type="int" value="9"/>
+                        <Property name="minimum" type="int" value="1"/>
+                        <Property name="minorTickSpacing" type="int" value="1"/>
+                        <Property name="paintLabels" type="boolean" value="true"/>
+                        <Property name="paintTicks" type="boolean" value="true"/>
+                        <Property name="snapToTicks" type="boolean" value="true"/>
+                        <Property name="value" type="int" value="1"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="threadsStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator1">
+                    </Component>
+                    <Component class="javax.swing.JSlider" name="permutations">
+                      <Properties>
+                        <Property name="majorTickSpacing" type="int" value="9"/>
+                        <Property name="minimum" type="int" value="1"/>
+                        <Property name="minorTickSpacing" type="int" value="1"/>
+                        <Property name="paintLabels" type="boolean" value="true"/>
+                        <Property name="paintTicks" type="boolean" value="true"/>
+                        <Property name="snapToTicks" type="boolean" value="true"/>
+                        <Property name="value" type="int" value="5"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="permutationsStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fuzzing"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBox3StateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JSlider" name="vectorsLikelihood">
+                      <Properties>
+                        <Property name="majorTickSpacing" type="int" value="9"/>
+                        <Property name="maximum" type="int" value="99"/>
+                        <Property name="minimum" type="int" value="1"/>
+                        <Property name="minorTickSpacing" type="int" value="9"/>
+                        <Property name="paintLabels" type="boolean" value="true"/>
+                        <Property name="paintTicks" type="boolean" value="true"/>
+                        <Property name="snapToTicks" type="boolean" value="true"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="vectorsLikelihoodStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="fuzzingLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Attack Vectors:"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="fuzzingButton">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Load"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fuzzingButtonActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel14">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Proxy Host:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="proxyHost">
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="proxyHostFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="proxyHost.setText(manager.getTask().getProxyHost());"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel15">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Proxy Port:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="proxyPort">
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="proxyPortFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="proxyPort.setText(manager.getTask().getProxyPort());"/>
+                      </AuxValues>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                      <Properties>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="vectorsList">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value=" Load your attack vectors wordlist..."/>
+                            <Property name="enabled" type="boolean" value="false"/>
+                            <Property name="focusCycleRoot" type="boolean" value="true"/>
+                            <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="vectorsListFocusLost"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JFileChooser" name="jFileChooser2">
+                      <Properties>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFileChooser2ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jFileChooser2.setVisible(false);&#xa;jFileChooser2.setDialogTitle(&quot;Select your attack vectors wordlist&quot;);"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="datatype">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Data Pools">
+                        <Property name="tabTitle" type="java.lang.String" value="Data Pools"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel12" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="stringPool" max="32767" attributes="1"/>
+                                  <Component id="charPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="booleanPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="doublePool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="floatPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="longPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="intPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="shortPool" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="bytePool" alignment="0" min="-2" pref="446" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="569" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bytePool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shortPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="intPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="longPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="floatPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="doublePool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="booleanPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="charPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="stringPool" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="59" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="byte:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bytePool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-128,127"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="bytePoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setBytePool(buildPoolArray(bytePool.getText(),&quot;byte&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="short:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="shortPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-32768,32767"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="shortPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setShortPool(buildPoolArray(shortPool.getText(),&quot;short&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="int:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="intPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="0,1,2,3,4,5,6,7,8,9"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="intPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setIntPool(buildPoolArray(intPool.getText(),&quot;int&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="long:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="longPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="0,1,2,3,4,5,6,7,8,9"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="longPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setLongPool(buildPoolArray(longPool.getText(),&quot;long&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="floatPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="0,1,2,3,4,5,6,7,8,9"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="floatPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setFloatPool(buildPoolArray(floatPool.getText(),&quot;float&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="float:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="doublePool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="0,1,2,3,4,5,6,7,8,9"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="doublePoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setDoublePool(buildPoolArray(doublePool.getText(),&quot;double&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="double:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="booleanPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="true,false"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="booleanPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setBooleanPool(buildPoolArray(booleanPool.getText(),&quot;boolean&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="boolean: "/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="char:"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="charPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="charPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setCharPool(buildPoolArray(charPool.getText(),&quot;char&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel12">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="String: "/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="stringPool">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="test,foo,bar,key,example"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[322, 25]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="stringPoolFocusLost"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="manager.getTask().setStringPool(buildPoolArray(stringPool.getText(),&quot;string&quot;));"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="fourthStep">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="fourthStep" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fourthStepFocusGained"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/orange04.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="progress">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Status">
+                        <Property name="tabTitle" type="java.lang.String" value="Status"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel10">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="StartButton" min="-2" pref="126" max="-2" attributes="0"/>
+                                  <EmptySpace pref="154" max="32767" attributes="0"/>
+                                  <Component id="StopButton" min="-2" pref="126" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel103" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="AMFReq3" min="-2" pref="257" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel102" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="methodSignatures" min="-2" pref="109" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel104" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="attackVectors" min="-2" pref="109" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jSeparator14" min="-2" max="-2" attributes="1"/>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel105" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="AMFReqSent" pref="44" max="32767" attributes="0"/>
+                                              <EmptySpace min="-2" pref="384" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="progressBar" alignment="0" min="-2" pref="504" max="-2" attributes="1"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="finishTLabel" min="-2" pref="137" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="finishT" min="-2" pref="115" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="totTLabel" min="-2" pref="125" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="totT" min="-2" pref="93" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jLabel111" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="statusTask" min="-2" pref="417" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jLabel110" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="status" min="-2" pref="417" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jLabel106" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="avgT" min="-2" pref="177" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jSeparator14" min="-2" pref="10" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel102" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="methodSignatures" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel104" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="attackVectors" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel103" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="AMFReq3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel105" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="AMFReqSent" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel106" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="avgT" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="finishTLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="finishT" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="totTLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="totT" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel111" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="statusTask" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel110" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="status" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="progressBar" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="StartButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Component id="StopButton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JSeparator" name="jSeparator14">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel102">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="# Method Signatures:"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel103">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="# AMF Requests:"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="methodSignatures">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="AMFReqSent">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel106">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Average Speed (reqs/sec):"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="avgT">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="finishTLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Time to Finish (sec):"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="totTLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Overall Time (sec):"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="finishT">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="totT">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="StopButton">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/com/mtso/blazer/stop.png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Stop"/>
+                            <Property name="enabled" type="boolean" value="false"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StopButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="StartButton">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/com/mtso/blazer/play.png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Start"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StartButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JProgressBar" name="progressBar">
+                          <Properties>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel110">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Current Status:"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="status">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="STOPPED"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel104">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="# Attack Vectors:"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="attackVectors">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel111">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Current Task:"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="statusTask">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="GENERATION"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="AMFReq3">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="DejaVu Sans" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="0"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel105">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="# Requests Sent (task):"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="fifthStep">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="fifthStep" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fifthStepFocusGained"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/terminal.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="beanshell">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="BeanShell">
+                        <Property name="tabTitle" type="java.lang.String" value="BeanShell"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <EmptySpace min="0" pref="576" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <EmptySpace min="0" pref="391" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="sixthStep">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="sixthStep" noResource="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Export"/>
+              </AccessibilityProperties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="">
+                    <Property name="tabTitle" type="java.lang.String" value=""/>
+                    <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/mtso/blazer/export.png"/>
+                    </Property>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="export">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Export">
+                        <Property name="tabTitle" type="java.lang.String" value="Export"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButtonExport" alignment="0" min="-2" pref="114" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="reqCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="respCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="radioFile" min="-2" max="-2" attributes="0"/>
+                                          <Component id="radioConsole" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="253" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="reqCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="radioConsole" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="respCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="radioFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="jButtonExport" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="223" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="jButtonExport">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Export"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonExportActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="reqCheckBox">
+                      <Properties>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value="AMF Request"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="respCheckBox">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="AMF Response"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Include:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="radioConsole">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup1"/>
+                        </Property>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value="Console"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel13">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Output:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="radioFile">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="File"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

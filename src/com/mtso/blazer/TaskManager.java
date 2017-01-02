@@ -76,7 +76,7 @@ public class TaskManager implements ThreadCompleteListener {
         currentTask.setProxyHost(proxySettings[0]);
         currentTask.setProxyPort(proxySettings[1]);
         currentTask.setCookies(GenericUtil.getCookies(this.requestResponse.getRequest()));
-        currentTask.setEndpoint(this.requestResponse.getUrl().toString());
+        currentTask.setEndpoint(this.burpCallbacks.getHelpers().analyzeRequest(this.requestResponse).getUrl().toString());
     }
 
     public PrintWriter getStdOut() {

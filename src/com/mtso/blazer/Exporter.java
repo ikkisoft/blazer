@@ -105,9 +105,9 @@ public class Exporter {
 
         for (IHttpRequestResponse singleMsg : messageInfo) {
             //Request or Response details
-            reqsDet.append("Host:").append(singleMsg.getHost()).append(System.getProperty("line.separator"));
-            reqsDet.append("Port:").append(singleMsg.getPort()).append(System.getProperty("line.separator"));
-            reqsDet.append("Protocol:").append(singleMsg.getProtocol()).append(System.getProperty("line.separator"));
+            reqsDet.append("Host:").append(singleMsg.getHttpService().getHost()).append(System.getProperty("line.separator"));
+            reqsDet.append("Port:").append(singleMsg.getHttpService().getPort()).append(System.getProperty("line.separator"));
+            reqsDet.append("Protocol:").append(singleMsg.getHttpService().getProtocol()).append(System.getProperty("line.separator"));
             reqsDet.append("Comment:").append(singleMsg.getComment()).append(System.getProperty("line.separator"));
             if (exportRequests) {
                 reqsDet.append("HTTP Request:").append(System.getProperty("line.separator")).append(xstream.toXML(AMFUtil.extractAM(singleMsg.getRequest(), manager.getStdOut(), manager.getStdErr())).replaceAll("\n", System.getProperty("line.separator"))).append(System.getProperty("line.separator"));

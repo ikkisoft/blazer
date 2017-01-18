@@ -8,4 +8,4 @@ ProOnly: False
 Author: Luca Carettoni
 ShortDescription: Generates and fuzzes custom AMF messages.
 EntryPoint: build/libs/blazer-all.jar
-BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
+BuildCommand: gradle fatJar

@@ -24,5 +24,7 @@ sourceSets {
 task fatJar(type: Jar) {
     baseName = project.name + '-all'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    exclude('META-INF/*.RSA')
+    exclude('META-INF/*.SF')
     with jar
 }

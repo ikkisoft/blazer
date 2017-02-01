@@ -91,6 +91,8 @@ class CustomMenuItem implements IMenuItemHandler {
     }
 
     public void menuItemClicked(String menuItemCaption, IHttpRequestResponse[] messageInfo) {
+        if (messageInfo[0].getRequest() == null) return;
+
         try {
             // User clicked on the Blazer extension contextual menu
             if (menuItemCaption.equalsIgnoreCase("Blazer - AMF Testing")) { //Standard Blazer GUI

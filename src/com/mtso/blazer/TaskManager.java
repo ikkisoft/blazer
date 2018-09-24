@@ -46,15 +46,17 @@ public class TaskManager implements ThreadCompleteListener {
     private long startTime = 0;
 
     public TaskManager(IBurpExtenderCallbacks burpCallbacks, IHttpRequestResponse[] requestResponse) throws Exception {
-
-        Float majorVer = new Float(burpCallbacks.getBurpVersion()[1]);
-        Float minorVer = new Float(0);
-        if (burpCallbacks.getBurpVersion()[2] != null && !burpCallbacks.getBurpVersion()[2].isEmpty()) {
-            minorVer = new Float(burpCallbacks.getBurpVersion()[2]);
+        String[] version = burpCallbacks.getBurpVersion();
+        Float majorVer = Float.parseFloat(version[1]);
+        Float minorVer = 0f;
+        if (version.length == 3 && !version[2].isEmpty()) {
+            String minor = version[2];
+            // Remove all non-numeric characters from the minor version, particularly for the new beta builds.
+            minorVer = Float.parseFloat(minor.replaceAll("[^\\d]+", ""));
         }
 
-        //If running Burp Suite >= [Burp Suite Professional][1.5].[01], enable custom Stdout and Stderr       
-        if (majorVer >= 1.5 && minorVer >= 1.0) {
+        //If running Burp Suite >= [Burp Suite Professional][1.5].[01], enable custom Stdout and Stderr
+        if (majorVer > 1.5 || (majorVer == 1.5 && minorVer >= 1.0)) {
             //new registerExtenderCallbacks interface
             burpCallbacks.setExtensionName(BurpExtender.getBanner());
             stdout = new PrintWriter(burpCallbacks.getStdout(), true);
@@ -72,11 +74,17 @@ public class TaskManager implements ThreadCompleteListener {
         pcs = new PropertyChangeSupport(this);
 
         currentTask = new TaskSpecification(this.getStdOut(), this.getStdErr());
-        String[] proxySettings = GenericUtil.burpProxySettings(burpCallbacks.saveConfig()).split(":");
+        String[] proxySettings;
+        if (majorVer > 1.7) {
+            proxySettings = GenericUtil.burpProxySettings(
+                    burpCallbacks.saveConfigAsJson("proxy.request_listeners")).split(":");
+        } else {
+            proxySettings = GenericUtil.burpProxySettings(burpCallbacks.saveConfig()).split(":");
+        }
         currentTask.setProxyHost(proxySettings[0]);
         currentTask.setProxyPort(proxySettings[1]);
         currentTask.setCookies(GenericUtil.getCookies(this.requestResponse.getRequest()));
-        currentTask.setEndpoint(this.requestResponse.getUrl().toString());
+        currentTask.setEndpoint(this.burpCallbacks.getHelpers().analyzeRequest(this.requestResponse).getUrl().toString());
     }
 
     public PrintWriter getStdOut() {

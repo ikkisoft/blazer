@@ -1,0 +1,12 @@
+Uuid: 7c385950b7e84257ad5d3338bb5882b4
+ExtensionType: 1
+Name: Blazer
+RepoName: blazer
+ScreenVersion: 0.3
+SerialVersion: 4
+MinPlatformVersion: 0
+ProOnly: False
+Author: Luca Carettoni
+ShortDescription: Generates and fuzzes custom AMF messages.
+EntryPoint: build/libs/blazer-all.jar
+BuildCommand: gradle fatJar

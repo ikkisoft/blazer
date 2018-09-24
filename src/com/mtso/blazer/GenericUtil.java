@@ -14,14 +14,18 @@
  */
 package com.mtso.blazer;
 
+import burp.IBurpExtenderCallbacks;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Map;
+import java.lang.reflect.Type;
+import java.util.*;
 
 /*
  * This class implements multiple general purpose auxiliary utils
@@ -93,10 +97,37 @@ public class GenericUtil {
         return (String[]) lineIter.toArray(strArray);
     }
 
-    /*
+
+    public static String burpProxySettings(String jsonConfig) {
+        String burpHost = "", burpPort = "";
+        Type configType = new TypeToken<HashMap<String,HashMap<String, List<HashMap<String, String>>>>>() {}.getType();
+        HashMap<String, HashMap<String, List<HashMap<String, String>>>> config = new Gson()
+                .fromJson(jsonConfig, configType);
+        if (config.containsKey("proxy") && config.get("proxy").containsKey("request_listeners")) {
+            List<HashMap<String, String>> listeners = config.get("proxy").get("request_listeners");
+            for (HashMap<String, String> listener : listeners) {
+                if (listener.getOrDefault("running", "false").equals("true")) {
+                    if (listener.getOrDefault("listen_mode", "").equals("loopback_only")) {
+                        burpHost = "127.0.0.1"; // localhost
+                    } else {
+                        burpHost = listener.getOrDefault("listen_specific_address", "");
+                    }
+                    burpPort = listener.getOrDefault("listener_port", "");
+                    return String.join(":", burpHost, burpPort);
+                }
+            }
+
+        }
+        return String.join(":", burpHost, burpPort);
+    }
+    /**
      * Retrieve the proxy settings from Burp's configuration dump
      * E.g. "proxy.listener0 => 1.8888.1.0..0.0.1.0..0..0."
+     * @deprecated As of BurpSuite Release version 1.7.13 (approximately) the IBurpExtenderCallbacks.saveConfig
+     * was deprecated. It is hard to tell when it was actually deprecated, since the release notes and API do not say
+     * when it was actually deprecated.
      */
+    @Deprecated
     public static String burpProxySettings(Map configs) {
         String[] fields;
         String burpHost = "", burpPort = "";

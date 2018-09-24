@@ -1,0 +1,37 @@
+apply plugin: 'java'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.portswigger.burp.extender:burp-extender-api:1.7.13'
+    compile 'com.thoughtworks.xstream:xstream:1.4.9'
+    compile 'org.apache.flex.blazeds:flex-messaging-core:4.7.2'
+    compile 'com.github.javaparser:javaparser-core:2.5.1'
+    compile 'org.eclipse.jetty.orbit:org.objectweb.asm:3.3.1.v201105211655'
+    compile 'bsh:bsh:2.0b4'
+    compile 'com.google.code.gson:gson:2.8.5'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src'
+            exclude '**.java'
+        }
+    }
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    exclude('META-INF/*.RSA')
+    exclude('META-INF/*.SF')
+    with jar
+}

@@ -91,6 +91,8 @@ class CustomMenuItem implements IMenuItemHandler {
     }
 
     public void menuItemClicked(String menuItemCaption, IHttpRequestResponse[] messageInfo) {
+        if (messageInfo[0].getRequest() == null) return;
+
         try {
             // User clicked on the Blazer extension contextual menu
             if (menuItemCaption.equalsIgnoreCase("Blazer - AMF Testing")) { //Standard Blazer GUI
@@ -155,18 +157,6 @@ class CustomMenuItem implements IMenuItemHandler {
 
     private BlazerUIView initializeAndDisplay(IHttpRequestResponse[] messageInfo) throws Exception {
         manager = new TaskManager(callbacks, messageInfo);
-
-        try {
-            for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (Exception e) {
-            // Nimbus L&F is not available, set the GUI to Metal or whatever is available
-            UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-        }
 
         return new BlazerUIView(manager);
     }

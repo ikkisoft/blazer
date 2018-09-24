@@ -32,7 +32,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
  */
 public class BurpExtender implements IBurpExtender {
 
-    private static String version = "v0.3";
+    private static String version = "v0.3.2";
     private static boolean flagSM = false;
 
     public static String getBanner() {
